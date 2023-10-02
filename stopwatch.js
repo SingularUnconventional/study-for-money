@@ -41,7 +41,7 @@ function dataSet(){
     }
 
     document.getElementById("time").innerHTML = td + ":" + th + ":" + tm + ":" + ts;
-    document.getElementById("money").innerHTML = money + "\\";
+    document.getElementById("money").innerHTML = Math.floor(money) + "원";
 }
 
 function buttonEvt(){
